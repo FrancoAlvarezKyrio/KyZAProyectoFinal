@@ -44,11 +44,6 @@
  
 }
 
-.btn1 {
-    color: green;
-  
-}
-
 .card-img-overlay {
  
 }
@@ -56,10 +51,6 @@
 .card-title2 {
     color: white;
 }
-
-
-
-
 
 .card-text2 {
     color: white;
@@ -81,7 +72,7 @@
   margin-top: 50px;
 }
 
-#grillaFooter {
+#grillaFooter1 {
     
     display: grid;
     grid-template-columns: repeat(1, 200px);
@@ -123,7 +114,7 @@
 
     }
 
-    #grillaFooter {        
+    #grillaFooter1 {        
             padding-left: 10px;
             display: grid;
             grid-template-columns: repeat(2, 250px);
@@ -163,11 +154,11 @@
 
 @media (min-width: 1200px) {
 
-    #grillaFooter {        
+    #grillaFooter1 {        
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: 90px 90px 90px 90px 90px 90px  ;
-    background-color: cornflowerblue;
+    background-color:cornflowerblue;
     }
       
   

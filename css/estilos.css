@@ -26,9 +26,6 @@
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
-.btn1 {
-  color: green; }
-
 .card-title2 {
   color: white; }
 
@@ -45,7 +42,7 @@
 .container-footer {
   margin-top: 50px; }
 
-#grillaFooter {
+#grillaFooter1 {
   display: grid;
   grid-template-columns: repeat(1, 200px);
   grid-template-rows: 30px;
@@ -76,7 +73,7 @@
   .list-group {
     display: flex;
     flex-direction: row; }
-  #grillaFooter {
+  #grillaFooter1 {
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(2, 250px);
@@ -99,7 +96,7 @@
 
 /* MEDIAQUERY COMPUTADORA */
 @media (min-width: 1200px) {
-  #grillaFooter {
+  #grillaFooter1 {
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: 90px 90px 90px 90px 90px 90px;

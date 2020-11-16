@@ -33,10 +33,6 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.btn1 {
-  color: green;
-}
-
 .card-title2 {
   color: white;
 }
@@ -58,7 +54,7 @@
   margin-top: 50px;
 }
 
-#grillaFooter {
+#grillaFooter1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (200px)[1];
@@ -103,7 +99,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  #grillaFooter {
+  #grillaFooter1 {
     padding-left: 10px;
     display: -ms-grid;
     display: grid;
@@ -134,7 +130,7 @@
 
 /* MEDIAQUERY COMPUTADORA */
 @media (min-width: 1200px) {
-  #grillaFooter {
+  #grillaFooter1 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (180px)[6];
