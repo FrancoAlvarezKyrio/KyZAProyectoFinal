@@ -2,66 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width , initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="miarchivo.scss">
+    <link rel="stylesheet" href="scss/miarchivo.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Document</title>
 </head>
 <body>
 
+  <br>
+
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand animate__animated animate__backInDown" href="#">KyZA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: #e3f2fd;">
+        <a class="navbar-brand animate__animated animate__fadeIn"  href="index.html">KyZAMundiaL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active animate__animated animate__backInDown">
-              <a id="links" class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
-            </li>
       
-            <li class="nav-item dropdown">
-                <a id="links" class="nav-link dropdown-toggle animate__animated animate__backInDown" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Institucion
-                </a>
-                <div id="links" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a id="links" class="dropdown-item" href="#">Alumnos</a>
-                  <a id="links" class="dropdown-item" href="#">Proyectos</a>
-                  <a id="links" class="dropdown-item" href="#">Servicios</a>
-                </div>
-              </li>
-
-            <li class="nav-item">
-              <a id="links" class="nav-link animate__animated animate__backInDown" href="#">Contacto</a>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
-            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Institucion
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="alumnos.html">Alumnos</a>
+                <a class="dropdown-item" href="proyectos.html">Proyectos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="servicios.html">Servicios</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
           </ul>
+          
         </div>
       </nav>
+
+      <br>
 
      
       
       <div class="card bg-dark text-white">
-        <img src="Imagenes/alumnos1.jpg" height="500px" class="card-imgIndex" alt="...">
+        <img src="Imagenes/developer5.png" height="500px" class="card-imgIndex" alt="...">
         <div class="card-img-overlay">
-          <h5 class="card-title">Bienvenidos a KyZA</h5>
-          <p class="card-text">Aprendé desde casa</p>
-          <p class="card-SubText">¿Queres trabajar con nosotros?</p>
-          <button type="button" class="btn1 btn-info btn-lg ">Contacto</button>
+          <h5 class="card-SubTitleBanner">Ahora podes aprender desde casa</h5>
+          <p class="card-textBanner">KyZA MundiAL</p>
+          <p class="card-SubTextBanner">¿Queres trabajar con nosotros?</p>
+          <a href="contacto.html"><button type="button" class="btn2 btn-info btn-lg "> Contacto </button></a>
         </div>
       </div>
       <br><br><br>
       <div class="card bg-dark text-white">
-        <img src="Imagenes/banner1.jpg" height="250px" class="card-imgIndex2" alt="...">
+        <img src="Imagenes/banner14.jpg" height="250px" class="card-imgIndex2" alt="...">
         <div class="card-img-overlay">
-          <h5 class="card-title2">KyZA Design</h5>
-          <p class="card-text2">Somos una empresa fundada en el año 2020 <br>
+          <h5 class="card-title">KyZA Mundial</h5>
+          <p class="card-text2">Somos una institucion fundada en el año 2020 <br>
 
-            Nuestra historia comienza con el fundador de KyZA Design, Franco Alvarez y <br>
+            Nuestra historia comienza con el fundador de KyZA MundiAL, Franco Alvarez y <br>
              
 
             Co fundadores diseñadores Kyrio Alvarez Urrutia y Clara Urrutia.
@@ -69,41 +73,51 @@
             
           </p>
           <p class="card-text3">
-            <button type="button" class="btn btn-primary btn-lg ">Proyectos</button></p>
+            <a href="proyectos.html"><button type="button" class="btn btn-primary btn-lg ">Proyectos</button></p>
         </div>
       </div>
 
-
       <br><br><br>
+      
       <div class="card-group">
+
         <div class="card">
-          <img src="Imagenes/hombre7.jpg" height="200px" class="card-img-top" alt="...">
+          <img src="Imagenes/hombreX.jpg" height="200px" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Franco Alvarez</h5>
-            <p class="card-textFundadores">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-textFundadores">Comencé estudiando Diseño Multimedial y al notar que la materia Programacion no era nada facil
+              pero era la mas atrayente y demandada, cambié mi dirección y me especialize tanto en Front End como en Back End,
+              formando una especialidad de FullStack y empezando a ver mas real nuestro sueño, KyZA.
+            </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">Saber mas ... </button></small>
-          </div>
+            <a href="alumnos.html"><small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
         </div>
+
         <div class="card">
           <img src="Imagenes/hombre8.jpg" height="200px" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Kyrio Alvarez Urrutia</h5>
-            <p class="card-textFundadores">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-textFundadores">Toda mi carrera pensé que queria especializarme en el Front End pero al conocer a Franco
+              y escuchar sus propuestas, redirigi mis estudios hacia el Back End y hoy me encuentro dando clases de lenguajes 
+              como C, C++ y PHP.
+            </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">Saber mas ...</button></small>
-          </div>
+            <a href="alumnos.html"><small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
         </div>
+
         <div class="card">
           <img src="Imagenes/mujer7.jpg" height="200px" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Maria Clara Urrutia</h5>
-            <p class="card-textFundadores">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-textFundadores">Mi especialidad es el diseño, puedo diseñar, crear y/o modificar cualquier proyecto que tenga
+              u otros tengan en mente, poseo amplios conocimientos en el Diseño UX/UI aunque tambien me encuentro dando clases 
+              de especializacion Front End en el esxterior. 
+            </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">Saber mas ...</button></small>
+            <small class="text-muted"></small><a href="alumnos.html"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></a></small>
           </div>
         </div>
       </div>
@@ -111,15 +125,15 @@
       <br><br><br>
 
       <div class="card bg-dark text-white">
-        <img src="Imagenes/banner4.jpg" height="250px" class="card-imgIndex2" alt="...">
+        <img src="Imagenes/banner12.jpg" height="250px" class="card-imgIndex2" alt="...">
         <div class="card-img-overlay">
-          <h5 class="card-title2">Card title</h5>
-          <p class="card-text3"><p>En KyZA Design contamos con +500 sucursales en todo el mundo, <br>
+          <h5 class="card-title2">KyZA MundiAL</h5>
+          <p class="card-text3"><p>En KyZA MundiAL contamos con +500 sucursales en todo el mundo, <br>
             más de 100.000 de personas ya nos eligieron
-            y eligen todos los dias nuestro <br> servicio de mantenimiento al sitio y/o app. <br><br>
+            para nuestro servicio de tutoria y desarrollo del sitio y/o app. <br><br>
            
            </p>
-          <p class="card-text2"><button type="button" class="btn btn-primary btn-lg ">Servicios</button></p>
+          <p class="card-text2"> <a href="servicios.html"> <button type="button" class="btn btn-primary btn-lg ">Servicios</button></a></p>
         </div>
       </div>
 
@@ -173,48 +187,48 @@
 
               <footer>
                 <div id="grillaFooter1">
-                <div class="productosNosotros">SERVICIOS</div>
-                <div class="productosDosNosotros">Diseño de página web</div>
-                <div class="productosDosNosotros">Diseño de logo</div>
-                <div class="productosDosNosotros">Diseño de flyers</div>
-                <div class="productosDosNosotros">Campaña publicitaria</div>
-                <div class="productosDosNosotros">SEO y posicionamiento</div>
+                <div class="titulosFooter">SERVICIOS</div>
+                <div class="itemsFooter">Diseño de página web</div>
+                <div class="itemsFooter">Diseño de logo</div>
+                <div class="itemsFooter">Diseño de flyers</div>
+                <div class="itemsFooter">Campaña publicitaria</div>
+                <div class="itemsFooter">SEO y posicionamiento</div>
         
-                <div class="productosNosotros">CURSOS</div>
-                <div class="productosDosNosotros">Html5</div>
-                <div class="productosDosNosotros">Css3</div>
-                <div class="productosDosNosotros">JavaScript</div>
-                <div class="productosDosNosotros">ReactJS</div>
-                <div class="productosDosNosotros">PHP</div>
+                <div class="titulosFooter">CURSOS</div>
+                <div class="itemsFooter">Html5</div>
+                <div class="itemsFooter">Css3</div>
+                <div class="itemsFooter">JavaScript</div>
+                <div class="itemsFooter">ReactJS</div>
+                <div class="itemsFooter">PHP</div>
         
-                <div class="productosNosotros">AYUDA</div>
-                <div class="productosDosNosotros">Guia</div>
-                <div class="productosDosNosotros">Preguntas frecuentes</div>
-                <div class="productosDosNosotros">Busqueda</div>
-                <div class="productosDosNosotros">Requisitos</div>
-                <div class="productosDosNosotros">Instalaciones</div>
+                <div class="titulosFooter">AYUDA</div>
+                <div class="itemsFooter">Guia</div>
+                <div class="itemsFooter">Preguntas frecuentes</div>
+                <div class="itemsFooter">Busqueda</div>
+                <div class="itemsFooter">Requisitos</div>
+                <div class="itemsFooter">Instalaciones</div>
         
-                <div class="productosNosotros">NOSOTROS</div>
-                <div class="productosDosNosotros">Nuestra historia</div>
-                <div class="productosDosNosotros">Equipo</div>
-                <div class="productosDosNosotros">Testimonio Alumnos</div>
-                <div class="productosDosNosotros">Testimonio profesores</div>
-                <div class="productosDosNosotros">Clientes</div>
+                <div class="titulosFooter">NOSOTROS</div>
+                <div class="itemsFooter">Nuestra historia</div>
+                <div class="itemsFooter">Equipo</div>
+                <div class="itemsFooter">Testimonio Alumnos</div>
+                <div class="itemsFooter">Testimonio profesores</div>
+                <div class="itemsFooter">Clientes</div>
         
-                <div class="productosNosotros">REDES SOCIALES</div>
-                <div class="productosDosNosotros"> <img src="imagenes/instlogo1.png" width="20px" alt=""> Instagram</div>
-                <div class="productosDosNosotros"> <img src="imagenes/1024px-Facebook_Logo_(2019).webp" width="20px" alt=""> Facebook</div>
-                <div class="productosDosNosotros"><img src="imagenes/link4logo.png" width="20px" alt=""> Linkedin</div>
-                <div class="productosDosNosotros"> <img src="imagenes/youtube.png" width="20px" alt=""> YouTube</div>
-                <div class="productosDosNosotros"><img src="imagenes/pngocean.com.png" width="20px" alt=""> Google</div>
+                <div class="titulosFooter">REDES SOCIALES</div>
+                <div class="itemsFooter"> <img src="imagenes/instlogo1.png" width="20px" alt=""> Instagram</div>
+                <div class="itemsFooter"> <img src="imagenes/1024px-Facebook_Logo_(2019).webp" width="20px" alt=""> Facebook</div>
+                <div class="itemsFooter"><img src="imagenes/link4logo.png" width="20px" alt=""> Linkedin</div>
+                <div class="itemsFooter"> <img src="imagenes/youtube.png" width="20px" alt=""> YouTube</div>
+                <div class="itemsFooter"><img src="imagenes/pngocean.com.png" width="20px" alt=""> Google</div>
                 
             </div>
         
-                <p class="parrafosDeFooterNosotros">Copyright KyZA Design Company 2000 - 2020 Franco Alvarez - Clara Urrutia</p>
+                <p class="parrafosDeFooter">Copyright KyZA Design Company 2000 - 2020 Franco Alvarez - Clara Urrutia</p>
             
             <br>
         
-            <p class="parrafosDeFooterNosotros">Politicas legales | Derechos de privacidad | Terminos de uso | Politicas de cambio | Acuerdos de contribuidor | Preferencias sobre cookies</p>
+            <p class="parrafosDeFooter">Politicas legales | Derechos de privacidad | Terminos de uso | Politicas de cambio | Acuerdos de contribuidor | Preferencias sobre cookies</p>
         
             <br><br><br>
         
@@ -222,9 +236,8 @@
     </div>
 
     
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

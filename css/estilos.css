@@ -1,44 +1,82 @@
+/* VARIABLES*/
+/* INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- */
+/* NAV Y LINKS */
+/* BEM */
 #links {
-  color: #105E78; }
+  color: #c0dff5; }
 
-#links:hover {
-  color: #1bafaf; }
+.nav-link:hover {
+  color: #c0dff5; }
 
-.card-imgIndex {
-  width: 100%;
-  height: 500px; }
+.nav-link {
+  color: cornflowerblue !important; }
 
-.card-imgIndex2 {
-  width: 100%;
-  height: 250px; }
+.nav-link:hover {
+  color: #7f95c0 !important; }
 
-.card-img-top {
-  margin-top: 50px;
-  padding: 20px; }
+.navbar-brand {
+  color: cornflowerblue !important; }
 
-.card-text {
-  font-size: 50px;
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+.dropdown-menu {
+  background-color: #c0dff5; }
 
-.card-SubText {
-  font-size: 25px;
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-
-.card-title2 {
+.dropdown-item {
   color: white; }
+
+/* CARD 1 */
+/* BEM */
+.card {
+  background-color: #d4e7f5; }
+  .card .card-title {
+    color: #7f95c0;
+    font-size: 30px;
+    font-weight: bold; }
+  .card .card-titleAlumnos {
+    font-size: 70px; }
+  .card .card-SubTitleBanner {
+    color: cornflowerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px; }
+  .card .card-textFundadores {
+    color: #7f95c0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .card .card-textBanner {
+    color: #c0dff5 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px; }
+  .card .card-SubTextBanner {
+    color: cornflowerblue;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold; }
+
+/* CARD 2  */
+.card-title2 {
+  color: cornflowerblue;
+  font-size: 25px;
+  font-weight: bold; }
 
 .card-text2 {
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  color: #c0dff5; }
 
-.card-text3 {
-  color: white; }
-
-.card-textFundadores {
+/* BOTONES */
+.btn {
+  background-color: #c0dff5;
   color: cornflowerblue; }
 
+.btn:hover {
+  background-color: cornflowerblue;
+  color: #c0dff5; }
+
+.btn1 {
+  background-color: #7f95c0;
+  border-color: #7f95c0; }
+
+.btn2 {
+  background-color: #c0dff5 !important;
+  border-color: #7f95c0; }
+
+/* FOOTER */
 .container-footer {
   margin-top: 50px; }
 
@@ -46,28 +84,28 @@
   display: grid;
   grid-template-columns: repeat(1, 200px);
   grid-template-rows: 30px;
-  background-color: cornflowerblue; }
+  background-color: #d4e7f5; }
 
-.productosNosotros {
-  color: white;
+.titulosFooter {
+  color: cornflowerblue;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 15px;
   margin-top: 20px; }
 
-.productosDosNosotros {
-  color: #3264c2;
+.itemsFooter {
+  color: #7f95c0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
   margin-top: 20px; }
 
-.parrafosDeFooterNosotros {
+.parrafosDeFooter {
   font-size: small;
   margin-top: 30px;
-  color: #3264c2; }
+  color: #7f95c0; }
 
-/* MEDIAQUERY TABLET */
-@media (min-width: 530px) {
+/* MEDIAQUERY TABLET INDEX.HTML ---------- */
+@media (min-width: 750px) {
   .list-group-item {
     background-color: cornflowerblue; }
   .list-group {
@@ -79,14 +117,14 @@
     grid-template-columns: repeat(2, 250px);
     grid-template-rows: 100px 100px;
     background-color: cornflowerblue; }
-  .productosNosotros {
+  .titulosFooter {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 25px;
     padding-top: 50px; }
-  .productosDosNosotros {
-    color: #3264c2;
+  .itemsFooter {
+    color: #c0dff5;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     padding-top: 50px; }
@@ -94,24 +132,339 @@
     font-size: larger;
     margin-top: 50px; } }
 
-/* MEDIAQUERY COMPUTADORA */
+/* MEDIAQUERY PARA COMPUTADORA INDEX.HTML ---------- */
 @media (min-width: 1200px) {
+  /* CARD*/
+  .card-img-overlay {
+    margin-left: 330px; }
+  .card-SubTitleBanner {
+    color: cornflowerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 50px; }
+  .card-SubTextBanner {
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold;
+    margin-top: 100px; }
+  .card-title {
+    font-size: 20px !important;
+    color: cornflowerblue !important;
+    text-decoration: none !important; }
+  .card-text2 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px; }
+  .card-textFundadores:hover {
+    color: #7f95c0 !important;
+    transform: scale(1, 1.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; }
+  /* BOTONES */
+  .btn2 {
+    background-color: #c0dff5 !important;
+    border-color: #87b9db !important;
+    margin-left: 135px;
+    margin-top: 20px; }
+  .btn2:hover {
+    background-color: cornflowerblue !important;
+    color: white !important; }
+  /* FOOTER */
   #grillaFooter1 {
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: 90px 90px 90px 90px 90px 90px;
-    background-color: cornflowerblue; }
-  .productosNosotros {
-    color: blue;
+    background-color: #e3f2fd; }
+  .titulosFooter {
+    background-color: #c0dff5;
+    color: cornflowerblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 15px;
     font-weight: bold;
-    color: #3264c2; }
-  .productosDosNosotros {
-    color: #3264c2;
+    color: cornflowerblue; }
+  .itemsFooter {
+    background-color: #c0dff5;
+    color: #7f95c0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px; }
   .parrafosDeFooterNosotros {
     font-size: 13px;
     margin-top: 15px; } }
+
+/* ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML */
+/* CARD */
+.card-titleAlumnos {
+  font-size: 75px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 200px;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px; }
+
+.card-titleAlumnos1 {
+  color: #d4e7f5; }
+
+.card-titleAlumnos2 {
+  color: cornflowerblue; }
+
+.card-textAlumnos {
+  color: cornflowerblue; }
+
+/* PREGUNTAS FRECUENTES */
+#botonPreguntasFrecuentes {
+  color: white;
+  font-weight: bold;
+  background-color: cornflowerblue; }
+
+.tituloPreguntasFrecuentes {
+  color: white;
+  margin-top: 50px;
+  font-family: fantasy;
+  font-size: 40px;
+  text-align: center !important; }
+
+/*MEDIAQUERIE TABLET ALUMNOS.HTML */
+@media (min-width: 750px) {
+  .card-titleAlumnos {
+    font-size: 100px !important; }
+  .tituloPreguntasFrecuentes {
+    color: #c0dff5;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center !important; }
+  #grillaFooter1 {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: 100px 100px;
+    background-color: #c0dff5; }
+  .titulosFooter {
+    color: cornflowerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px; }
+  .itemsFooter {
+    color: #7f95c0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px; } }
+
+/*MEDIAQUERIE COMPUTADORA ALUMNOS:HTML */
+@media (min-width: 1200px) {
+  .tituloPreguntasFrecuentes {
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center; }
+  #grillaFooter1 {
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+    grid-template-rows: 90px 90px 90px 90px 90px 90px;
+    background-color: #e3f2fd; }
+  .titulosFooter {
+    background-color: #c0dff5;
+    color: cornflowerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    color: cornflowerblue; }
+  .itemsFooter {
+    background-color: #c0dff5;
+    color: #7f95c0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px; }
+  .parrafosDeFooterNosotros {
+    font-size: 13px;
+    margin-top: 15px; }
+  .card-titleAlumnos {
+    font-size: 70px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 150px !important;
+    color: white; } }
+
+/* PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- */
+.card-titleProyectos1 {
+  font-size: 65px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 150px;
+  color: #c0dff5;
+  font-weight: bold; }
+
+.card-titleProyectos {
+  color: #7f95c0 !important; }
+
+.card-textProyectos {
+  color: #7f95c0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+/* MEDIAQUERIE PROYECTOS.HTML PARA TABLET */
+@media (min-width: 750px) {
+  .card-titleProyectos1 {
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 120px;
+    margin-left: 75px;
+    color: #c0dff5;
+    font-weight: bold; } }
+
+/* MEDIAQUERIE PROYECTOS.HTML PARA COMPUTADORA */
+@media (min-width: 1200px) {
+  .card-titleProyectos1 {
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 120px;
+    margin-left: 20px;
+    color: #c0dff5;
+    font-weight: bold; }
+  .tituloCarouselProyectos {
+    color: cornflowerblue !important; }
+  .parrafoCarouselProyectos {
+    color: #7f95c0; }
+  #imagenesProyectos:hover {
+    transform: scale(1.2, 1.2); } }
+
+/* SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- */
+/* CONTENEDORES */
+body {
+  background-color: #c0dff5; }
+
+.container {
+  background-color: #c0dff5; }
+
+.media-body {
+  color: cornflowerblue; }
+
+.contenedorServicios {
+  background-color: #c0dff5; }
+
+.contenedorBannerServicios {
+  background-color: #c0dff5; }
+
+.contenedorImagenesClientes {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  grid-gap: 50px;
+  display: block;
+  padding: 10px; }
+
+/* IMAGENES */
+.imagenServicios {
+  background-color: #c0dff5; }
+
+.imagenesClientes {
+  background-color: white; }
+
+/* PARRAFOS */
+.parrafoDeCursos {
+  color: #6d6d6d; }
+
+.card-titleServicios {
+  font-size: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 150px;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px; }
+
+.tituloPreguntasFrecuentes {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold; }
+
+.duracionCurso {
+  font-size: 15px; }
+
+/* MEDIAQUERIE SERVICIOS.HTML PARA TABLET */
+@media (min-width: 750px) {
+  .card-titleServicios {
+    margin-left: 100px; }
+  .tituloPreguntasFrecuentes {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; }
+  .imagenesClientes {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .imagenSede {
+    width: 230px;
+    height: 150px; }
+  .parrafoDeCursos {
+    color: #6d6d6d;
+    font-size: 18px; } }
+
+/* MEDIAQUERIE SERVICIOS.HTML PARA COMPUTADORA */
+@media (min-width: 1200px) {
+  .card-titleServicios {
+    margin-left: 100px; }
+  /*--------------FLEXBOX-------------*/
+  .imagenesClientes {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly; }
+  /* ------------------------------- */
+  /*IMAGENES*/
+  .imagenSede {
+    width: 275px;
+    height: 150px; }
+  .imagenSedeUfc {
+    width: 250px;
+    height: 130px; }
+  .imagenSedeYouTube {
+    width: 275px;
+    height: 250px; }
+  .imagenSedeIntel {
+    width: 275px;
+    height: 100px; }
+  .parrafoDeCursos {
+    color: #6d6d6d;
+    font-size: 20px; } }
+
+/* CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML ----------- */
+.card-titleContacto {
+  font-size: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-right: 5px;
+  color: white; }
+
+.card-textContacto {
+  color: #6d6d6d !important; }
+
+.card-textContacto2 {
+  color: black;
+  font-size: 18px; }
+
+.tituloNuestrasSedes {
+  color: white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 50px;
+  font-weight: bold; }
+
+/* MEDIAQUERIE PARA TABLET CONTACTO.HTML */
+@media (min-width: 750px) {
+  .card-deck {
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: 600px; }
+  .card-textContacto2 {
+    color: black;
+    font-size: 25px; } }
+
+@media (min-width: 1200px) {
+  .card-deck {
+    display: flex;
+    flex-direction: row; }
+  .card-textContacto2 {
+    color: black;
+    font-size: 20px; } }
