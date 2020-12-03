@@ -5,137 +5,160 @@
     <meta name="viewport" content="width , initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="scss/miarchivo.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Document</title>
 </head>
 <body>
 
-  <br>
+<!-- LOGO -->
 
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: #e3f2fd;">
-        <a class="navbar-brand animate__animated animate__fadeIn"  href="index.html">KyZAMundiaL</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <br>
+
+                  <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: #e3f2fd;">
+                      <a class="navbar-brand animate__animated animate__fadeIn"  href="index.html">KyZAMundiaL</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
       
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Institucion
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="alumnos.html">Alumnos</a>
-                <a class="dropdown-item" href="proyectos.html">Proyectos</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="servicios.html">Servicios</a>
+<!-- MENU NAVEGADOR -->
+
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Institucion
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="alumnos.html">Alumnos</a>
+                          <a class="dropdown-item" href="proyectos.html">Proyectos</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="servicios.html">Servicios</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="empresas.html">Empresas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </nav>
+
+                <br>
+
+<!-- BANNER -->
+      
+                <div class="card bg-dark text-white">
+                  <img src="Imagenes/developerX.png" height="300px" class="card-imgIndexBanner" alt="banner de alumnos 1">
+                  <div class="card-img-overlay">
+                    <p class="card-textBanner animate__animated animate__fadeIn">KyZA MundiAL</p>
+                    <p class="card-SubTextBanner">¿Queres trabajar con nosotros?</p>
+                    <a href="contacto.html"><button type="button" class="btn2 btn-info btn-lg "> Contacto </button></a>
+                  </div>
+                </div>
+
+<!-- SUB BANNER -->
+
+                <br><br><br>
+                <div class="card bg-dark text-white">
+                  <img src="Imagenes/banner14.png" height="200px" class="card-imgIndex2" alt="banner de alumnos 2">
+                  <div class="card-img-overlay">
+                    <h1 class="card-titleInicio animate__animated animate__fadeIn">KyZA Mundial</h1>
+                    <p class="card-text2">Somos una institucion fundada en el año 2020. 
+
+                      Nuestra historia comienza con el fundador, Franco Alvarez y 
+                      
+
+                      Co fundadores Kyrio Alvarez Urrutia y Clara Urrutia. <br>
+                      
+                      
+                    </p>
+                    <p class="card-text3">
+                      <a href="proyectos.html"><button type="button" class="btn2 btn-primary btn-lg ">Proyectos</button></p>
+                  </div>
+                </div>
+
+
+      <br><br><br>
+
+<!-- FUNDADORES -->
+
+                <div class="card-deck">
+                  
+                  <div class="card">
+                    <img src="Imagenes/hombreX.jpg" class="card-img-top"  alt="...">
+                    <div class="card-body">
+                      <p class="card-titleFundadores">Franco Alvarez</p>
+                      <p class="card-textFundadores">Comencé estudiando Diseño Multimedial y al notar que la materia Programacion no era nada facil
+                        pero era la mas atrayente y demandada, cambié mi dirección y me especialize tanto en Front End como en Back End,
+                        formando una especialidad de FullStack y empezando a ver mas real nuestro sueño, KyZA.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="alumnos.html"><small class="text-muted"><button type="button" class="btnFundadores btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="Imagenes/hombre8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-titleFundadores">Kyrio Alvarez Urrutia</p>
+                      <p class="card-textFundadores">Toda mi carrera pensé que queria especializarme en el Front End pero al conocer a Franco
+                        y escuchar sus propuestas, redirigi mis estudios hacia el Back End y hoy me encuentro dando clases de lenguajes 
+                        como C, C++ y PHP.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="alumnos.html"><small class="text-muted"><button type="button" class="btnFundadores btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
+                  </div>
+
+
+                  <div class="card">
+                    <img src="Imagenes/mujer7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-titleFundadores">Maria Clara Urrutia</p>
+                      <p class="card-textFundadores">Mi especialidad es el diseño, puedo diseñar, crear y/o modificar cualquier proyecto que tenga
+                        u otros tengan en mente, poseo amplios conocimientos en el Diseño UX/UI aunque tambien me encuentro dando clases 
+                        de especializacion Front End en el esxterior. 
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small><a href="alumnos.html"><button type="button" class="btnFundadores btn-primary btn-lg btn-block">  Saber mas ...</button></a></small>
+                    </div>
+                  </div>
+                </div>
+
+                <br><br><br>
+
+<!-- SUB BANNER 2 -->
+      
+                <div class="card bg-dark text-white">
+                  <img src="Imagenes/banner12.jpg" height="200px" class="card-imgIndex2" alt="banner de alumnos3">
+                  <div class="card-img-overlay">
+
+                    <h2 class="card-title2">KyZA MundiAL</h2>
+
+                    <p class="card-text3"><p>Contamos con +500 sucursales en todo el mundo,
+                      más de 100.000 de personas ya nos eligieron
+                      para nuestro servicio de tutoria y desarrollo del sitio y/o app. 
+                    </p>
+
+                    <p class="card-text2"> <a href="servicios.html"> <button type="button" class="btn2 btn-primary btn-lg ">
+                      Servicios
+                  </button>
+                </a>
+                </p>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
+            </div>
 
-      <br>
 
-     
-      
-      <div class="card bg-dark text-white">
-        <img src="Imagenes/developer5.png" height="500px" class="card-imgIndex" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-SubTitleBanner">Ahora podes aprender desde casa</h5>
-          <p class="card-textBanner">KyZA MundiAL</p>
-          <p class="card-SubTextBanner">¿Queres trabajar con nosotros?</p>
-          <a href="contacto.html"><button type="button" class="btn2 btn-info btn-lg "> Contacto </button></a>
-        </div>
-      </div>
-      <br><br><br>
-      <div class="card bg-dark text-white">
-        <img src="Imagenes/banner14.jpg" height="250px" class="card-imgIndex2" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">KyZA Mundial</h5>
-          <p class="card-text2">Somos una institucion fundada en el año 2020 <br>
-
-            Nuestra historia comienza con el fundador de KyZA MundiAL, Franco Alvarez y <br>
-             
-
-            Co fundadores diseñadores Kyrio Alvarez Urrutia y Clara Urrutia.
-            
-            
-          </p>
-          <p class="card-text3">
-            <a href="proyectos.html"><button type="button" class="btn btn-primary btn-lg ">Proyectos</button></p>
-        </div>
-      </div>
-
-      <br><br><br>
-      
-      <div class="card-group">
-
-        <div class="card">
-          <img src="Imagenes/hombreX.jpg" height="200px" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Franco Alvarez</h5>
-            <p class="card-textFundadores">Comencé estudiando Diseño Multimedial y al notar que la materia Programacion no era nada facil
-              pero era la mas atrayente y demandada, cambié mi dirección y me especialize tanto en Front End como en Back End,
-              formando una especialidad de FullStack y empezando a ver mas real nuestro sueño, KyZA.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="alumnos.html"><small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
-        </div>
-
-        <div class="card">
-          <img src="Imagenes/hombre8.jpg" height="200px" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kyrio Alvarez Urrutia</h5>
-            <p class="card-textFundadores">Toda mi carrera pensé que queria especializarme en el Front End pero al conocer a Franco
-              y escuchar sus propuestas, redirigi mis estudios hacia el Back End y hoy me encuentro dando clases de lenguajes 
-              como C, C++ y PHP.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="alumnos.html"><small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></small></a></div>
-        </div>
-
-        <div class="card">
-          <img src="Imagenes/mujer7.jpg" height="200px" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Maria Clara Urrutia</h5>
-            <p class="card-textFundadores">Mi especialidad es el diseño, puedo diseñar, crear y/o modificar cualquier proyecto que tenga
-              u otros tengan en mente, poseo amplios conocimientos en el Diseño UX/UI aunque tambien me encuentro dando clases 
-              de especializacion Front End en el esxterior. 
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted"></small><a href="alumnos.html"><button type="button" class="btn btn-primary btn-lg btn-block">  Saber mas ...</button></a></small>
-          </div>
-        </div>
-      </div>
-
-      <br><br><br>
-
-      <div class="card bg-dark text-white">
-        <img src="Imagenes/banner12.jpg" height="250px" class="card-imgIndex2" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title2">KyZA MundiAL</h5>
-          <p class="card-text3"><p>En KyZA MundiAL contamos con +500 sucursales en todo el mundo, <br>
-            más de 100.000 de personas ya nos eligieron
-            para nuestro servicio de tutoria y desarrollo del sitio y/o app. <br><br>
-           
-           </p>
-          <p class="card-text2"> <a href="servicios.html"> <button type="button" class="btn btn-primary btn-lg ">Servicios</button></a></p>
-        </div>
-      </div>
+<!-- CAROUSEL -->
 
 
             <br><br><br>
@@ -146,95 +169,123 @@
                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
+
+
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="Imagenes/conferencia.jpg" class="d-block w-100" alt="...">
+                    <img src="Imagenes/conferencia.jpg" id="imagenesConferencia" height="250px" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Seminario KyZA en Japon</h5>
+
+                      <h3>Seminario KyZA en Japon</h3>
+
                       <p>Profesor Franco Alvarez - Logica de programacion - 10/08/20</p>
+
                     </div>
                   </div>
+
+
                   <div class="carousel-item">
-                    <img src="Imagenes/seminario2.jpg" class="d-block w-100" alt="...">
+                    <img src="Imagenes/seminario2.jpg" id="imagenesConferencia" height="250px" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Seminario KyZA en Egipto</h5>
+
+                      <h4>Seminario KyZA en Egipto</h4>
+
                       <p>Profesor Kyrio Alvarez Urrutia - PHP Avanzado - 10/04/19</p>
+
                     </div>
                   </div>
+
+
                   <div class="carousel-item">
-                    <img src="Imagenes/seminario3.jpg" class="d-block w-100" alt="...">
+                    <img src="Imagenes/seminario3.jpg" id="imagenesConferencia" height="250px" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
+
                       <h5>Seminario KyZA en Finlandia</h5>
+
                       <p>Profesor Diego Huidobro Etcheverry - JavaScript y ReactJS - 21/12/18</p>
+
                     </div>
                   </div>
                 </div>
+
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
+
                 </a>
+
                 <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
+
                 </a>
+
               </div>
               
 
-            
+<!-- FOOTER -->           
 
               <br><br><br>
 
 
               <footer>
                 <div id="grillaFooter1">
-                <div class="titulosFooter">SERVICIOS</div>
-                <div class="itemsFooter">Diseño de página web</div>
-                <div class="itemsFooter">Diseño de logo</div>
-                <div class="itemsFooter">Diseño de flyers</div>
-                <div class="itemsFooter">Campaña publicitaria</div>
+                 <div class="titulosFooter">SERVICIOS</div>
+                  <div class="itemsFooter">Diseño de página web</div>
+                   <div class="itemsFooter">Diseño de logo</div>
+                  <div class="itemsFooter">Diseño de flyers</div>
+                 <div class="itemsFooter">Campaña publicitaria</div>
                 <div class="itemsFooter">SEO y posicionamiento</div>
         
                 <div class="titulosFooter">CURSOS</div>
-                <div class="itemsFooter">Html5</div>
-                <div class="itemsFooter">Css3</div>
-                <div class="itemsFooter">JavaScript</div>
-                <div class="itemsFooter">ReactJS</div>
-                <div class="itemsFooter">PHP</div>
+                 <div class="itemsFooter">Html5</div>
+                  <div class="itemsFooter">Css3</div>
+                   <div class="itemsFooter">JavaScript</div>
+                  <div class="itemsFooter">ReactJS</div>
+                 <div class="itemsFooter">PHP</div>
         
                 <div class="titulosFooter">AYUDA</div>
-                <div class="itemsFooter">Guia</div>
-                <div class="itemsFooter">Preguntas frecuentes</div>
-                <div class="itemsFooter">Busqueda</div>
-                <div class="itemsFooter">Requisitos</div>
-                <div class="itemsFooter">Instalaciones</div>
+                 <div class="itemsFooter">Guia</div>
+                  <div class="itemsFooter">Preguntas frecuentes</div>
+                   <div class="itemsFooter">Busqueda</div>
+                  <div class="itemsFooter">Requisitos</div>
+                 <div class="itemsFooter">Instalaciones</div>
         
                 <div class="titulosFooter">NOSOTROS</div>
-                <div class="itemsFooter">Nuestra historia</div>
-                <div class="itemsFooter">Equipo</div>
-                <div class="itemsFooter">Testimonio Alumnos</div>
-                <div class="itemsFooter">Testimonio profesores</div>
+                 <div class="itemsFooter">Nuestra historia</div>
+                  <div class="itemsFooter">Equipo</div>
+                   <div class="itemsFooter">Testimonio Alumnos</div>
+                  <div class="itemsFooter">Testimonio profesores</div>
                 <div class="itemsFooter">Clientes</div>
         
                 <div class="titulosFooter">REDES SOCIALES</div>
-                <div class="itemsFooter"> <img src="imagenes/instlogo1.png" width="20px" alt=""> Instagram</div>
-                <div class="itemsFooter"> <img src="imagenes/1024px-Facebook_Logo_(2019).webp" width="20px" alt=""> Facebook</div>
-                <div class="itemsFooter"><img src="imagenes/link4logo.png" width="20px" alt=""> Linkedin</div>
-                <div class="itemsFooter"> <img src="imagenes/youtube.png" width="20px" alt=""> YouTube</div>
-                <div class="itemsFooter"><img src="imagenes/pngocean.com.png" width="20px" alt=""> Google</div>
+                 <div class="itemsFooter"> <img src="imagenes/instlogo1.png" width="20px" alt=""> Instagram</div>
+                  <div class="itemsFooter"> <img src="imagenes/1024px-Facebook_Logo_(2019).webp" width="20px" alt=""> Facebook</div>
+                   <div class="itemsFooter"><img src="imagenes/link4logo.png" width="20px" alt=""> Linkedin</div>
+                  <div class="itemsFooter"> <img src="imagenes/youtube.png" width="20px" alt=""> YouTube</div>
+                 <div class="itemsFooter"><img src="imagenes/pngocean.com.png" width="20px" alt=""> Google</div>
                 
             </div>
         
-                <p class="parrafosDeFooter">Copyright KyZA Design Company 2000 - 2020 Franco Alvarez - Clara Urrutia</p>
+                <p class="parrafosDeFooter">
+                  Copyright KyZA Design Company 2000 - 2020 Franco Alvarez - Clara Urrutia
+                </p>
             
             <br>
         
-            <p class="parrafosDeFooter">Politicas legales | Derechos de privacidad | Terminos de uso | Politicas de cambio | Acuerdos de contribuidor | Preferencias sobre cookies</p>
+            <p class="parrafosDeFooter">
+              Politicas legales | Derechos de privacidad | Terminos de uso | Politicas de cambio | Acuerdos de contribuidor | Preferencias sobre cookies
+            </p>
         
             <br><br><br>
         
             </footer>
     </div>
 
+
+<!-- CDN -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

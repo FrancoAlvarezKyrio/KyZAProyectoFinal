@@ -5,7 +5,6 @@
     <meta name="viewport" content="width , initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="scss/miarchivo.scss">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Document</title>
@@ -15,58 +14,67 @@
 
 <br>
 
-        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
-          <a class="navbar-brand" href="#">KyZAMundiaL</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Institucion
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="alumnos.html">Alumnos</a>
-                  <a class="dropdown-item" href="proyectos.html">Proyectos</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="servicios.html">Servicios</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: #e3f2fd;">
+    <a class="navbar-brand animate__animated animate__fadeIn"  href="index.html">KyZAMundiaL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Institucion
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="alumnos.html">Alumnos</a>
+            <a class="dropdown-item" href="proyectos.html">Proyectos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="servicios.html">Servicios</a>
           </div>
-        </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="empresas.html">Empresas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
 
         <br>
 
      
       
         <div class="card bg-dark text-white">
-          <img src="Imagenes/bannercontacto.jpg" height="500px" class="card-imgIndex" alt="...">
+          <img src="Imagenes/bannercontacto.png" height="300px" class="card-imgContacto" alt="...">
           <div class="card-img-overlay">
-            <h5 class="card-titleContacto">Contacto</h5>
+            <h5 class="card-titleContacto animate__animated animate__fadeIn">Contacto</h5>
           </div>
         </div>
 <br><br>
 
-                           <h1 class="tituloNuestrasSedes">Nuestras sedes</h1>
+<div class="card bg-dark text-white">
+  <img src="Imagenes/facumoderna.png" height="200px" class="card-imgContacto3" alt="...">
+  <div class="card-img-overlay">
+    <p class="card-titleContacto1">Nuestras sedes</p>
+  </div>
+</div>
 
-                                      
+            <br><br>                      
 
 <div class="card-deck">
   <div class="card">
-    <img src="Imagenes/sede1.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede1.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede Springfield</h5> <br>
-      <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Avenida Siempre Viva 123 (C.A.B.A) <br> <br>
+      <h5 class="card-titleSedes">Sede Springfield</h5> <br>
+      <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png"  width="20px" alt=""> Avenida Siempre Viva 123 (C.A.B.A) <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-2306-4870 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sedespringfield@kyzamundial.com
       </p>
@@ -76,9 +84,9 @@
     </div>
   </div>
   <div class="card">
-    <img src="Imagenes/sede2.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede2.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede SouthPark</h5> <br>
+      <h5 class="card-titleSedes">Sede SouthPark</h5> <br>
       <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Calle de los sueños 999 (C.A.B.A) <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-8903-1010 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sedesouthpark@kyzamundial.com
@@ -89,9 +97,9 @@
     </div>
   </div>
   <div class="card">
-    <img src="Imagenes/sede4.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede4.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede Live Aid</h5> <br>
+      <h5 class="card-titleSedes">Sede Live Aid</h5> <br>
       <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Freddie Vive 0001 (Zona norte) <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-1234-4321 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sedeliveaid@kyzamundial.com
@@ -107,9 +115,9 @@
 
 <div class="card-deck">
   <div class="card">
-    <img src="Imagenes/sede3.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede3.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede Cromagnon</h5> <br>
+      <h5 class="card-titleSedes">Sede Cromagnon</h5> <br>
       <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Avenida Callejeros 3000 (Palermo) <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-0303-4567 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sedecromagnon@kyzamundial.com
@@ -120,9 +128,9 @@
     </div>
   </div>
   <div class="card">
-    <img src="Imagenes/sede5.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede5.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede Canserbero</h5> <br>
+      <h5 class="card-titleSedes">Sede Canserbero</h5> <br>
       <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Calle de los Suburbios 100 (C.A.B.A) <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-0911-0666 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sedescanserbero@kyzamundial.com
@@ -133,9 +141,9 @@
     </div>
   </div>
   <div class="card">
-    <img src="Imagenes/sede6.jpg" height="219px"  class="card-img-top" alt="...">
+    <img src="Imagenes/sede6.jpg" id="imagenesSedesContacto" height="219px"  class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Sede RockNRolla</h5> <br>
+      <h5 class="card-titleSedes">Sede RockNRolla</h5> <br>
       <p class="card-textContacto"> <img src="Imagenes/gratis-png-iconos-de-computadora-ubicacion-google-maps-punto-de-referencia.png" width="20px" alt=""> Royal Street Avenue 99 <br> <br>
       <img src="imagenes/whatsapp-logo-11-1019x1024.png" width="20px" alt=""> 011-4747-3384 <br> <br>
        <img src="imagenes/logoemail.jpg" width="20px" alt=""> sederocknrolla@kyzamundial.com
@@ -150,7 +158,7 @@
           <br><br><br>
 
           <div class="card bg-dark text-white">
-        <img src="Imagenes/contacto1.png" height="250px" class="card-imgIndex2" alt="...">
+        <img src="Imagenes/contacto1.png" height="200px" class="card-imgContacto2" alt="...">
         <div class="card-img-overlay">
 
           </p>
@@ -192,8 +200,8 @@
                       Back End
                     </label>
                   </div>
-                  <div class="form-check disabled">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
                     <label class="form-check-label" for="gridRadios3">
                       Full Stack
                     </label>
@@ -213,10 +221,15 @@
               </div>
             </div>
             <div class="form-group row">
+              
+              <textarea name="" id="" cols="190" rows="10"></textarea>
+           
               <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <br>
+                <button type="submit" class="btnContacto btn-primary btn-block ">Enviar</button>
               </div>
             </div>
+            
           </form>
 
           <br><br><br>
