@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* VARIABLES*/
 /* BODY */
 body {
@@ -8,6 +9,9 @@ body {
 
 .media-body {
   color: cornflowerblue; }
+
+.navbar {
+  background-color: #e3f2fd; }
 
 /* INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- */
 /* NAV Y LINKS */
@@ -35,22 +39,12 @@ body {
   color: white; }
 
 /* CARD 1 */
-/* BEM */
+/* BEM Nº1 */
 .card {
   background-color: #d4e7f5; }
-  .card .card-titleInicio {
+  .card .card-titleIndex {
     color: white;
-    font-size: 20px;
-    font-weight: bold; }
-  .card .card-SubTitleBanner {
-    color: cornflowerblue;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px; }
-  .card .card-textFundadores {
-    color: #7f95c0 !important;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-  .card .card-titleFundadores {
-    color: cornflowerblue; }
+    font-size: 25px; }
   .card .card-textBanner {
     color: white !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -61,17 +55,41 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold; }
 
-/* CARD 2  */
-.card-title2 {
-  color: white;
-  font-size: 25px;
+/* BEM Nº2 */
+.card .card-titleInicio {
+  color: cornflowerblue;
+  font-size: 20px;
   font-weight: bold; }
 
-.card-text2 {
-  color: white; }
+.card .card-titleFundadores {
+  color: cornflowerblue; }
+
+.card .card-textFundadores {
+  color: #7f95c0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.card .card-SubTitleBanner {
+  color: cornflowerblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px; }
 
 #imagenesConferencia {
   height: 500px; }
+
+/* PARRAFOS SUB BANNER */
+.card .parrafoSubBanner3 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold; }
+
+.card .parrafoSubBanner4 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: bold; }
 
 /* BOTONES */
 .btn {
@@ -100,9 +118,7 @@ body {
   margin-left: 85px; }
 
 /* FOOTER */
-.container-footer {
-  margin-top: 50px; }
-
+/* BEM Nº3 */
 #grillaFooter1 {
   display: grid;
   grid-template-columns: repeat(1, 200px);
@@ -128,37 +144,37 @@ body {
   color: #7f95c0; }
 
 /* MEDIAQUERY TABLET INDEX.HTML ---------- */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
+  /* LIST GROUP */
   .list-group-item {
     background-color: cornflowerblue; }
   .list-group {
     display: flex;
     flex-direction: row; }
-  .card-textBanner {
+  /* CARD*/
+  /* BEM Nº4 */
+  .card .card-textBanner {
     color: white !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px !important;
     margin-left: 50px; }
-  .card-SubTextBanner {
+  .card .card-SubTextBanner {
     color: white;
     font-size: 25px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold;
     margin-left: 55px; }
-  .card-title {
+  .card .card-title {
     color: white;
     font-size: 30px !important;
     font-weight: bold;
     margin-left: 125px; }
-  .card-text2 {
-    color: white;
-    font-size: 18px !important; }
-  .card-textFundadores {
+  .card .card-textFundadores {
     color: #7f95c0 !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-  .card-titleFundadores {
+  .card .card-titleFundadores {
     color: cornflowerblue; }
-  .card-img-top {
+  .card .card-img-top {
     height: 150px; }
   /* BOTONES */
   .btn {
@@ -176,79 +192,74 @@ body {
     color: cornflowerblue;
     margin-left: 170px; }
   /* FOOTER */
+  /* BEM Nº5 */
   #grillaFooter1 {
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(2, 250px);
     grid-template-rows: 100px 100px;
     background-color: cornflowerblue; }
-  .titulosFooter {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    padding-top: 50px; }
-  .itemsFooter {
-    color: #c0dff5;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    padding-top: 50px; }
-  .parrafosDeFooterNosotros {
-    font-size: larger;
-    margin-top: 50px; } }
+    #grillaFooter1 .titulosFooter {
+      color: #7f95c0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      padding-top: 50px; }
+    #grillaFooter1 .itemsFooter {
+      color: cornflowerblue !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 20px;
+      padding-top: 50px; }
+    #grillaFooter1 .parrafosDeFooterNosotros {
+      font-size: larger;
+      margin-top: 50px; } }
 
 /* MEDIAQUERY PARA COMPUTADORA INDEX.HTML ---------- */
 @media (min-width: 1200px) {
   /* CARD*/
-  .card-img-overlay {
+  /* BEM Nº6 */
+  .card .card-img-overlay {
     margin-left: 330px; }
-  .card-textBanner {
+  .card .card-textBanner {
     color: white !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px !important;
     margin: 0px;
     margin-left: 20px; }
-  .card-SubTextBanner {
-    color: cornflowerblue;
+  .card .card-SubTextBanner {
+    color: white;
     font-size: 22px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold;
     margin: 0px;
     margin-left: 20px; }
-  .card-SubTitleBanner {
+  .card .card-SubTitleBanner {
     color: cornflowerblue;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 50px; }
-  .card-titleEmpresas {
+  .card .card-titleEmpresas {
     font-size: 30px !important;
     color: white !important;
     text-decoration: none !important; }
-  .card-text2 {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px !important;
-    margin-right: 300px !important; }
-  .card-textFundadores:hover {
-    color: #7f95c0 !important;
-    transform: scale(1, 1.1);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold; }
+  .card .card-bodyfundadorNumero1 {
+    width: 1000px !important; }
+  /* PARRAFOS SUB BANNER */
+  .parrafoSubBanner3 {
+    font-size: 35px !important;
+    margin-right: 330px;
+    font-weight: normal; }
+  .parrafoSubBanner4 {
+    font-size: 25px;
+    margin: 0px;
+    margin-right: 350px;
+    font-weight: normal;
+    text-align: center; }
   /* BOTONES */
   .btn {
     background-color: white !important;
     border-color: #7f95c0;
     color: cornflowerblue;
     margin-left: 140px; }
-  .btnFundadores {
-    background-color: #c0dff5 !important;
-    border-color: #7f95c0 !important;
-    margin-top: 10px;
-    text-decoration: none !important; }
-  .btnFundadores:hover {
-    background-color: cornflowerblue !important;
-    border-color: #7f95c0 !important;
-    margin-top: 10px;
-    text-decoration: none !important; }
   .btn2 {
     background-color: #c0dff5 !important;
     border-color: #87b9db !important;
@@ -258,27 +269,28 @@ body {
     background-color: cornflowerblue !important;
     color: white !important; }
   /* FOOTER */
+  /* BEM Nº7*/
   #grillaFooter1 {
     display: grid;
     grid-template-columns: repeat(6, 180px);
     grid-template-rows: 90px 90px 90px 90px 90px 90px;
     background-color: #e3f2fd; }
-  .titulosFooter {
-    background-color: #c0dff5;
-    color: cornflowerblue;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    font-weight: bold;
-    color: cornflowerblue; }
-  .itemsFooter {
-    background-color: #c0dff5;
-    color: #7f95c0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px; }
-  .parrafosDeFooterNosotros {
-    font-size: 13px;
-    margin-top: 15px; } }
+    #grillaFooter1 .titulosFooter {
+      background-color: #c0dff5;
+      color: cornflowerblue;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      font-weight: bold;
+      color: cornflowerblue; }
+    #grillaFooter1 .itemsFooter {
+      background-color: #c0dff5;
+      color: #7f95c0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 15px; }
+    #grillaFooter1 .parrafosDeFooterNosotros {
+      font-size: 13px;
+      margin-top: 15px; } }
 
 /* ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML */
 /* CARD */
@@ -286,24 +298,26 @@ body {
   color: cornflowerblue !important;
   font-size: 30px; }
 
-.card-titleAlumnos {
+/* CARD */
+/* BEM Nº8 */
+.card .card-titleAlumnos {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 100px;
   color: white;
   margin-left: 30px; }
 
-.card-titleAlumnos1 {
+.card .card-titleAlumnos1 {
   color: white;
   font-size: 20px; }
 
-.card-titleAlumnos2 {
+.card .card-titleAlumnos2 {
   color: cornflowerblue; }
 
-.card-textAlumnos {
+.card .card-textAlumnos {
   color: cornflowerblue; }
 
-.card-bodyAlumnos {
+.card .card-bodyAlumnos {
   color: cornflowerblue;
   background-color: #d4e7f5; }
 
@@ -321,17 +335,17 @@ body {
   text-align: center !important; }
 
 /*MEDIAQUERIE TABLET ALUMNOS.HTML */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
   /* CARD */
   .card-titleAlumnos {
     font-size: 50px !important;
-    margin-left: 125px; }
+    margin-left: 130px !important; }
   /* IMAGENES */
   .card-img-topAlumnos1 {
-    width: 153px;
+    width: 155px;
     height: 100px; }
   .card-img-topAlumnos2 {
-    width: 153px;
+    width: 155px;
     height: 100px; }
   /* PREGUNTAS FRECUENTES */
   .tituloPreguntasFrecuentes {
@@ -364,14 +378,18 @@ body {
 /*MEDIAQUERIE COMPUTADORA ALUMNOS:HTML */
 @media (min-width: 1200px) {
   /* CARD */
-  .card-titleAlumnos {
+  .card .card-titleAlumnos {
     font-size: 70px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 120px !important;
     color: white;
-    margin-left: 20px; }
-  .card-titleAlumnos1 {
+    margin-left: 120px; }
+  .card .card-titleAlumnos1 {
     margin-top: 40px; }
+  .card .card-text2Alumnos {
+    margin: 0px;
+    margin-right: 200px;
+    margin-top: 5px; }
   /* IMAGENES */
   .card-imgAlumnos {
     width: 1080px !important;
@@ -380,10 +398,10 @@ body {
     width: 1080px;
     height: 250px; }
   .card-img-topAlumnos1 {
-    width: 344px !important;
+    width: 354px !important;
     height: 300px; }
   .card-img-topAlumnos2 {
-    width: 345px;
+    width: 355px;
     height: 250px; }
   /* PREGUNTAS FRECUENTES */
   .tituloPreguntasFrecuentes {
@@ -422,24 +440,25 @@ body {
 .card-titleProyectos1 {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 90px;
   color: white;
+  margin-top: 100px;
   margin-left: 20px; }
 
 .card-titleProyectos {
-  color: #7f95c0 !important; }
+  color: #7f95c0 !important;
+  font-size: 25px; }
 
 .card-textProyectos {
   color: #7f95c0 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 /* MEDIAQUERIE PROYECTOS.HTML PARA TABLET */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
   .card-titleProyectos1 {
     font-size: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 100px;
-    margin-left: 125px;
+    margin-left: 110px;
     color: white; }
   /*IMAGENES*/
   #fotosCarroussell {
@@ -510,6 +529,10 @@ body {
   color: white;
   margin-left: 50px; }
 
+.card-titleServicios1 {
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
 .subTituloServicios {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -518,14 +541,17 @@ body {
   margin-top: 25px;
   margin-bottom: 25px; }
 
+#titulosDeCursos {
+  font-size: 20px; }
+
 .duracionCurso {
   font-size: 15px; }
 
 /* MEDIAQUERIE SERVICIOS.HTML PARA TABLET */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
   /*CARD*/
   .card-titleServicios {
-    margin-left: 150px; }
+    margin-left: 130px; }
   .tituloPreguntasFrecuentes {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
@@ -565,6 +591,8 @@ body {
     font-size: 70px;
     margin-top: 120px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .card-titleServicios1 {
+    margin-top: 50px; }
   /*--------------FLEXBOX-------------*/
   .imagenesClientes {
     background-color: white;
@@ -610,9 +638,9 @@ body {
 /* EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML ----------- */
 .card-titleEmpresasBanner {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 100px;
-  margin-left: 30px; }
+  margin-left: 45px; }
 
 .card-titleEmpresasCero {
   font-size: 20px;
@@ -629,9 +657,9 @@ body {
   margin-left: 30px; }
 
 .card-titleEmpresas1 {
-  font-size: 20px;
+  font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: white;
+  color: #7f95c0;
   margin-top: 0px;
   margin-left: 30px; }
 
@@ -653,7 +681,12 @@ body {
   margin-left: 0px; }
 
 /* MEDIAQUERIE PARA TABLET EMPRESAS.HTML */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
+  .card-titleEmpresasBanner {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 120px; }
   .card-titleEmpresasCero {
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -669,8 +702,8 @@ body {
   .card-titleEmpresas1 {
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    margin-left: 100px; }
+    color: #7f95c0;
+    margin-left: 0px; }
   .card-headerEmpresas {
     color: cornflowerblue !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -681,7 +714,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px; }
   .btnEmpresas {
-    background-color: #c0dff5 !important;
+    background-color: cornflowerblue !important;
     border-color: #d4e7f5 !important;
     font-size: 20px;
     margin-left: 0px;
@@ -689,33 +722,30 @@ body {
 
 /* MEDIAQUERIE PARA COMPUTADORA EMPRESAS.HTML */
 @media (min-width: 1200px) {
+  .card-titleEmpresasBanner {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 40px; }
   .card-titleEmpresasCero {
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    margin-top: 40px;
-    margin-left: 0px; }
+    margin-top: 50px;
+    margin-left: 0px;
+    font-weight: normal; }
   .card-titleEmpresas {
     font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+    color: #7f95c0;
     margin-top: 15px;
     margin-left: 50px; }
   .card-titleEmpresas1 {
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+    color: #7f95c0;
     margin-top: 40px;
     margin-left: 0px; }
-  .card-headerEmpresas {
-    color: cornflowerblue !important;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px; }
-  .card-titleEmpresas {
-    color: #7f95c0 !important;
-    font-size: 20px !important;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px; }
   .btnEmpresas {
     background-color: #c0dff5 !important;
     border-color: #d4e7f5 !important;
@@ -731,6 +761,7 @@ body {
     margin-top: 50px;
     text-decoration: none; }
   .card-imgEmpresas {
+    width: 1110px !important;
     height: 150px; } }
 
 /* CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML ----------- */
@@ -768,13 +799,13 @@ body {
   margin-bottom: 50px; }
 
 /* MEDIAQUERIE PARA TABLET CONTACTO.HTML */
-@media (min-width: 749px) {
+@media (min-width: 750px) {
   .card-titleContacto {
-    font-size: 70px;
+    font-size: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    margin-top: 80px;
-    margin-left: 80px; }
+    margin-top: 100px;
+    margin-left: 110px; }
   .card-titleContacto1 {
     font-size: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -786,16 +817,18 @@ body {
     font-size: 25px; }
   /* IMAGENES */
   .card-imgContacto {
-    width: 508px;
+    width: 478px;
     height: 300px; }
   #imagenesSedesContacto {
-    width: 148px;
+    width: 138px;
     height: 100px; }
   /* BOTONES */
   .btnContacto {
     background-color: #c0dff5;
     color: cornflowerblue;
     margin-left: 50px; }
+  .btnModal {
+    margin-left: 45px; }
   /* MEDIAQUERIE PARA COMPUTADORA CONTACTO.HTML */ }
 
 @media (min-width: 1200px) {
@@ -837,4 +870,6 @@ body {
   .btnContacto {
     background-color: cornflowerblue;
     color: #c0dff5;
-    margin-left: 110px; } }
+    margin-left: 110px; }
+  .btnModal {
+    margin-left: 80px; } }
