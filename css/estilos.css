@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* VARIABLES*/
 /* BODY */
 body {
@@ -11,9 +10,10 @@ body {
   color: cornflowerblue; }
 
 .navbar {
-  background-color: #e3f2fd; }
+  background-color: #e3f2fd !important; }
 
 /* INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 /* NAV Y LINKS */
 /* BEM */
 #links {
@@ -39,7 +39,6 @@ body {
   color: white; }
 
 /* CARD 1 */
-/* BEM Nº1 */
 .card {
   background-color: #d4e7f5; }
   .card .card-titleIndex {
@@ -53,9 +52,9 @@ body {
     color: white;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-left: 5px; }
 
-/* BEM Nº2 */
 .card .card-titleInicio {
   color: cornflowerblue;
   font-size: 20px;
@@ -115,10 +114,9 @@ body {
   background-color: white !important;
   border-color: #7f95c0;
   color: cornflowerblue;
-  margin-left: 85px; }
+  margin-left: 90px; }
 
 /* FOOTER */
-/* BEM Nº3 */
 #grillaFooter1 {
   display: grid;
   grid-template-columns: repeat(1, 200px);
@@ -152,7 +150,6 @@ body {
     display: flex;
     flex-direction: row; }
   /* CARD*/
-  /* BEM Nº4 */
   .card .card-textBanner {
     color: white !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -192,7 +189,6 @@ body {
     color: cornflowerblue;
     margin-left: 170px; }
   /* FOOTER */
-  /* BEM Nº5 */
   #grillaFooter1 {
     padding-left: 10px;
     display: grid;
@@ -217,7 +213,6 @@ body {
 /* MEDIAQUERY PARA COMPUTADORA INDEX.HTML ---------- */
 @media (min-width: 1200px) {
   /* CARD*/
-  /* BEM Nº6 */
   .card .card-img-overlay {
     margin-left: 330px; }
   .card .card-textBanner {
@@ -269,7 +264,6 @@ body {
     background-color: cornflowerblue !important;
     color: white !important; }
   /* FOOTER */
-  /* BEM Nº7*/
   #grillaFooter1 {
     display: grid;
     grid-template-columns: repeat(6, 180px);
@@ -294,12 +288,12 @@ body {
 
 /* ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML */
 /* CARD */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 .navbar-brand {
   color: cornflowerblue !important;
   font-size: 30px; }
 
 /* CARD */
-/* BEM Nº8 */
 .card .card-titleAlumnos {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -434,6 +428,7 @@ body {
     margin-top: 15px; } }
 
 /* PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 .navbar-brand {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
@@ -496,6 +491,7 @@ body {
     transform: scale(1.1, 1.1); } }
 
 /* SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 /* CONTENEDORES */
 .contenedorServicios {
   background-color: #c0dff5; }
@@ -636,6 +632,7 @@ body {
     font-size: 20px; } }
 
 /* EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML ----------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 .card-titleEmpresasBanner {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
@@ -643,6 +640,13 @@ body {
   margin-left: 45px; }
 
 .card-titleEmpresasCero {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin-top: 0px;
+  margin-left: 30px; }
+
+.card-titleEmpresasCero2 {
   font-size: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
@@ -741,7 +745,7 @@ body {
     margin-top: 15px;
     margin-left: 50px; }
   .card-titleEmpresas1 {
-    font-size: 25px;
+    font-size: 18px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #7f95c0;
     margin-top: 40px;
@@ -765,6 +769,7 @@ body {
     height: 150px; } }
 
 /* CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML ----------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 /* CARD */
 .card-titleContacto {
   font-size: 50px;

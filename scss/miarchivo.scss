@@ -26,12 +26,13 @@ body {
 }
 
 .navbar {
-  background-color: $color_fondo_menu;
+  background-color: $color_fondo_menu !important;
 }
 
 
 /* INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- INDEX.HTML ---------- */
 
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 
 /* NAV Y LINKS */
 
@@ -72,7 +73,7 @@ body {
 
 /* CARD 1 */
 
-/* BEM Nº1 */
+
 
 .card {
   background-color: $color_celeste_secundario;
@@ -94,12 +95,13 @@ body {
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold;
+    margin-left: 5px;
   
   }
 
 }
 
-/* BEM Nº2 */
+
 
 .card {
 
@@ -186,12 +188,12 @@ body {
   background-color: $color_blanco_primario !important;
   border-color:$color_azul_primario;
   color: $color_azul_secundario;
-  margin-left: 85px;
+  margin-left: 90px;
 }
 
 
 /* FOOTER */
-/* BEM Nº3 */
+
 #grillaFooter1 {
     
     display: grid;
@@ -243,7 +245,7 @@ flex-direction: row;
 
 
 /* CARD*/
-/* BEM Nº4 */
+
 .card {
 
 .card-textBanner {
@@ -311,7 +313,7 @@ flex-direction: row;
 }
 
 /* FOOTER */
-/* BEM Nº5 */
+
 
 #grillaFooter1 {        
 padding-left: 10px;
@@ -358,7 +360,7 @@ margin-top: 50px;
 
 
   /* CARD*/
-  /* BEM Nº6 */
+
 
 .card {
 
@@ -445,7 +447,7 @@ margin-top: 50px;
 }
  
 /* FOOTER */
-/* BEM Nº7*/
+
 
 #grillaFooter1 {        
   display: grid;
@@ -470,6 +472,7 @@ margin-top: 50px;
   color: $color_azul_primario;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
+
   }
 
 .parrafosDeFooterNosotros {
@@ -487,6 +490,7 @@ margin-top: 50px;
 /* ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML ------------ ALUMNOS.HTML */
 
 /* CARD */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 
 
 .navbar-brand {
@@ -495,7 +499,7 @@ margin-top: 50px;
 }
 
 /* CARD */
-/* BEM Nº8 */
+
 .card {
 
 .card-titleAlumnos {
@@ -726,6 +730,8 @@ margin-top: 50px;
 
 
 /* PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- PROYECTOS.HTML -------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
+
 
 .navbar-brand {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -840,7 +846,7 @@ margin-top: 50px;
 
 
 /* SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- SERVICIOS.HTML ----------- */
-
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 
 
 
@@ -1083,6 +1089,9 @@ margin-top: 50px;
 
 
 /* EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML -----------  EMPRESAS.HTML ----------- */
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
+
+
 
 .card-titleEmpresasBanner {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1092,6 +1101,14 @@ margin-top: 50px;
 }
 
 .card-titleEmpresasCero {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: $color_blanco_primario;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.card-titleEmpresasCero2 {
   font-size: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: $color_blanco_primario;
@@ -1221,7 +1238,7 @@ margin-top: 50px;
   }
   
   .card-titleEmpresas1 {
-    font-size: 25px;
+    font-size: 18px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: $color_azul_primario;
     margin-top: 40px;
@@ -1258,7 +1275,7 @@ margin-top: 50px;
 
 
 /* CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML -----------  CONTACTO.HTML ----------- */
-
+/* BASADO EN MEDIDAS DE IPHONE X (375px)*/
 
 /* CARD */
 
