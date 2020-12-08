@@ -633,7 +633,8 @@ margin-top: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 120px !important;
     color: $color_blanco_primario;
-    margin-left: 120px;
+    margin-left: 20px !important;
+    
   }
 
   .card-titleAlumnos1 {
@@ -652,12 +653,12 @@ margin-top: 50px;
   /* IMAGENES */ 
 
   .card-imgAlumnos {
-    width: 1080px !important;
+    width: 1110px !important;
     height: 300px;
   }
 
   .card-imgAlumnosSubBanner {
-    width: 1080px;
+    width: 1110px;
     height: 250px;
   }
 
@@ -893,7 +894,7 @@ margin-top: 50px;
 .card-titleServicios1 {
   font-size: 25px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+
 }
 
 .subTituloServicios {
@@ -1199,7 +1200,7 @@ margin-top: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 70px;
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .card-titleEmpresasCero {
